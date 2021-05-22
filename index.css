@@ -1,0 +1,114 @@
+*{
+  margin: 0px;
+  padding:0px;
+   box-sizing: border-box;
+  }
+  body{
+    background: url(./imgsn.jpg);
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size:26px;
+    font-weight: bold;
+    margin-top: 7px;
+    color:chartreuse;
+    font-family: 'Copse', serif;
+  }
+  .div-main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height:80vh;
+    width:30vw;
+    background-color: black;
+    margin-left: 550px;
+    margin-top: 75px;
+    border-radius: 14px;
+  }
+.div-items{
+  display: flex;
+  flex-direction: row;
+  margin-top: 9px;
+  /* border: 2px solid transparent; */
+  border-radius: 4px;
+  padding: 9px;
+  width:310px;
+}
+.div-items:nth-child(3n+1){
+background: linear-gradient(90deg,rgb(22, 168, 154) 0%,teal 100%);
+}
+.div-items:nth-child(3n+2){
+  background: linear-gradient(90deg,rgb(235, 203, 61) 0%,rgba(187, 129, 4, 0.904) 100%);
+  }
+  .div-items:nth-child(3n+3){
+    background: linear-gradient(90deg,rgb(20, 179, 15) 0%,rgb(51, 128, 0) 100%);
+    }
+    .div-items:nth-child(3n+4){
+      background: linear-gradient(90deg,rgb(223, 46, 90) 0%,rgb(187, 12, 149) 100%);
+      }
+  .div-items:nth-child(3n+5){
+      background: linear-gradient(90deg,rgb(103, 78, 218) 0%,rgb(0, 19, 128) 100%);
+      }
+      .div-items:nth-child(3n+6){
+        background: linear-gradient(90deg,rgb(236, 29, 29) 0%,rgb(131, 23, 4) 100%);
+        }
+.forms{
+  margin-top: 9px;
+  display: flex;
+  flex-direction: row;
+  width:285px;
+}
+.todo-input{
+  padding: 7px;
+  border:none;
+  border-bottom: 2px solid blanchedalmond;
+  background: transparent;
+  outline:none;
+  width:89%;
+  left:7%;
+  margin-right: 17px;
+  color:blanchedalmond;
+}
+.fa{
+  margin-left: 267px;
+  position: absolute;
+  color:black;
+  margin-top: 7px;
+}
+.fa:hover{
+  cursor: pointer;
+  color:red;
+}
+/* input .check-box{
+  height:29px;
+  width: 29px;
+} */
+.itemslists{
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: 'Merienda', cursive;
+}
+/* .crossed-line {
+  text-decoration: line-through;
+} */
+.buttons{
+  padding: 7px;
+  color: green;
+  background-color: orange;
+  border-radius: 3px;
+  border-color: transparent;
+  font-family: 'Staatliches', cursive;
+  width:44px;
+}
+.buttons:hover{
+  color:lightgreen;
+  background-color: crimson;
+  transition: 0.5s;
+  cursor: pointer;
+}
