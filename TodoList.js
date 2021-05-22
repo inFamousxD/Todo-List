@@ -17,8 +17,7 @@ function TodoList({todo,settodo}) {
     }
     const [line, setline] = useState(false)
     const cutline=()=>{
-         setline(true);
-         
+         setline(!line);  
     }
 
     return (
